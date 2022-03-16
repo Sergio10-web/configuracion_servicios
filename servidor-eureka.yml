@@ -4,7 +4,7 @@ server:
 eureka:
    client:
     
-    registerWithEureka: false
+    register-with-eureka: false
     serviceUrl:
       defaultZone: http://localhost:8762/eureka
       fetch-refistry: false
